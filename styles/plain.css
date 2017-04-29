@@ -129,10 +129,10 @@ body {
 
 .post main > article .post-header {
   text-align: left;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .post main > article .post-header h1 {
-  font-family: 'Cormorant Garamond', serif;
   font-weight: 300;
   font-size: 40px;
   text-align: center;
@@ -143,16 +143,21 @@ body {
   margin: 0;
 }
 
-.post main > article .post-header h6 {
-  font-weight: 300;
-  font-style: italic;
-  font-size: 16px;
-  font-weight: 600;
-  font-style: italic;
-  font-family: monospace;
+.post main > article .post-header .date {
   text-align: center;
-  line-height: 3;
-  color: #333;
+  font-size: 18px;
+  margin: 5px 0;
+  color: grey;
+}
+
+.post main > article .post-header .author {
+  text-align: center;
+  font-style: italic;
+  margin: 10px 0;
+}
+
+.post main > article .post-header .author span {
+  font-style: initial;
 }
 
 .post main > article .post-comments {
