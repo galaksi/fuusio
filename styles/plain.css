@@ -145,7 +145,7 @@ body {
 
 .post main > article .post-header .date {
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
   margin: 5px 0;
   color: grey;
 }
@@ -153,11 +153,16 @@ body {
 .post main > article .post-header .author {
   text-align: center;
   font-style: italic;
+  font-size: 14px;
   margin: 10px 0;
 }
 
 .post main > article .post-header .author span {
   font-style: initial;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 18px;
+  margin-left: 3px;
 }
 
 .post main > article .post-comments {
